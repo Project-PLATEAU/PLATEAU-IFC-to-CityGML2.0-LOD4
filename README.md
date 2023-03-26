@@ -1,4 +1,6 @@
 # FMEを用いたIFCからCityGML2.0建築物モデル（LOD4）への変換テンプレート
+![image](https://user-images.githubusercontent.com/79615787/227794867-e499045a-9f0d-48e0-aa19-6fdf55d75d49.png)
+
 ## 概要
 
 * FMEを用いた「3D都市モデルとの連携のための情報伝達マニュアル（IDM）・モデルビュー定義（MVD）第2版」に準ずるIFCから、PLATEAU 標準のCityGML2.0 建築物モデル（LOD4）へのデータ変換テンプレートです
