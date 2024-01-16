@@ -75,3 +75,9 @@
 | 家具等設置物 | IfcFurnishingElement | BuildingFurniture	 |   |   | 〇 |
 | 開口要素 | IfcOpeningElement | Window, Door | 〇 | 〇 | 〇 |
 | 任意設定空間グループ | IfcZone | CityObjectGroup |   |   | 〇 |
+
+## 更新履歴
+
+* 2024年1月
+  * BuildingInstallation/IntBuildingInstllation ともに MultiSurface で出力するように修正
+  * 属性を抽出・設定するカスタムトランスフォーマー PLATEAU.IfcAttributeExtractor内の XMLTemplater_IfcWindow において、uro:IfcWindow 要素の xmlns:uro属性に設定すべき名前空間を修正
